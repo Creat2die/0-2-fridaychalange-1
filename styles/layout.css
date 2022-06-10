@@ -39,8 +39,7 @@ hr{
     padding:1px 32px;
     border-radius: 300px 0 0 300px;
     position: relative; 
-    margin-left: 8px; 
-    margin-right: 8px;  
+    margin-left: 8px;  
 }
 .icon-bg:last-of-type{
     padding:1px 24px;
@@ -85,4 +84,9 @@ hr{
 }
 
 
-
+.active{
+    background-color: white;
+}
+.active2{
+    filter: invert(20%) sepia(80%) saturate(1774%) hue-rotate(174deg) brightness(93%) contrast(98%);
+}
